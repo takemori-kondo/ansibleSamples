@@ -2,7 +2,7 @@
 # sudo yum -y install epel-release
 # sudo yum -y install ansible
 # sudo yum -y install openssh-clients
-## cd /home/vagrant/vagrant_shared/ansible
+## cd /home/vagrant/vagrant_shared/ansibleLamp
 ## cp private_keys/private_key ../../
 ## sudo chmod 0600 ../../private_key
 ## ansible-playbook -i hosts/dev.txt main.yml -u vagrant --private-key="../../private_key"
